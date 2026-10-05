@@ -59,7 +59,7 @@ This lab reviews the foundational concepts of algorithms and data structures tha
 
 **Answer**: Stack
 
-**Justification**: A stack is required over a Queue because you can use (), [], and {}, inside of eachother, and if it ran on a Queue it could cause complications. For instance if a sentence goes "Dr. Jones discussed the new smoking policy (an authority on the issue under review [smoking cessation strategies]) at length in his paper." a Queue would pair the () like so "Dr. Jones discussed the new smoking policy **(**an authority on the issue under review [smoking cessation strategies**]**) at length in his paper." which would be incorrect
+**Justification**: A stack is required over a Queue because you can use (), [], and {}, inside of eachother, and if it ran on a Queue it could cause complications. For instance if a sentence goes "Dr. Jones discussed the new smoking policy (an authority on the issue under review [smoking cessation strategies]) at length in his paper." a Queue would be stuck on the paranthesis and pair the ( with the ] which would be incorrect, while a stack would properly move to the brackets and correctly pair the () and []
 
 ## Empirical Comparison of Algorithms
 
